@@ -1246,13 +1246,30 @@ footer {
     Writing about data engineering, analytics, ML and the messy realities of
     building real-world pipelines. Watch this space.
   </p>
-  <div style="display:inline-flex;align-items:center;gap:16px;background:var(--cream);border:1px dashed var(--border);border-radius:4px;padding:24px 32px">
-    <div style="font-family:var(--serif);font-size:36px;font-style:italic;color:var(--border)">✍</div>
-    <div>
-      <div style="font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px">Work in progress</div>
-      <div style="font-family:var(--serif);font-size:18px;font-weight:700;color:var(--muted)">Posts coming soon</div>
-      <div style="font-family:var(--mono);font-size:11px;color:var(--border);margin-top:4px">Check back or connect on LinkedIn for updates</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+
+    <a href="https://www.linkedin.com/pulse/vibe-coding-change-way-software-engineers-hired-devashree-buch-s9gvc"
+       target="_blank"
+       style="text-decoration:none;color:inherit;display:block;background:var(--cream);border:1px solid var(--border);border-radius:4px;padding:32px;transition:all 0.3s;position:relative;overflow:hidden;"
+       onmouseover="this.style.borderColor='var(--ink)';this.style.background='var(--ink)';this.querySelectorAll('*').forEach(el=>{el.style.color=el.dataset.hc||''})"
+       onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--cream)';this.querySelectorAll('*').forEach(el=>{el.style.color=''})">
+      <div style="font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">LinkedIn Article · 2025</div>
+      <div style="font-family:var(--serif);font-size:20px;font-weight:700;line-height:1.3;margin-bottom:12px;color:var(--ink)">
+        Will Vibe Coding Change the Way Software Engineers Are Hired?
+        <span style="font-size:16px;color:var(--border)"> ↗</span>
+      </div>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:20px">
+        Exploring how AI-assisted "vibe coding" is reshaping the software hiring landscape — what it means for engineers, hiring managers, and the skills that actually matter now.
+      </p>
+      <div style="font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:0.06em">Read on LinkedIn ↗</div>
+    </a>
+
+    <div style="background:var(--cream);border:1px dashed var(--border);border-radius:4px;padding:32px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;min-height:200px;">
+      <div style="font-family:var(--mono);font-size:10px;color:var(--red);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:10px">Work in progress</div>
+      <div style="font-family:var(--serif);font-size:20px;font-weight:700;color:var(--muted);font-style:italic;margin-bottom:8px">More posts coming soon</div>
+      <div style="font-family:var(--mono);font-size:11px;color:var(--border)">Follow on LinkedIn for updates</div>
     </div>
+
   </div>
 </section>
 
